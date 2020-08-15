@@ -1,5 +1,8 @@
 {
   "npmScope": "nx-workspace-boilerplate",
+  "affected": {
+    "defaultBase": "develop"
+  },
   "implicitDependencies": {
     "workspace.json": "*",
     "package.json": {
@@ -23,9 +26,5 @@
       }
     }
   },
-  "projects": {
-    "tools": {
-      "tags": []
-    }
-  }
+  "projects": {}
 }

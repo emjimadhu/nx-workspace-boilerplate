@@ -1,18 +1,28 @@
 {
-  "extends": ["config:base"],
+  "extends": [
+    "config:base"
+  ],
   "assignAutomerge": true,
-  "labels": ["dependencies"],
+  "labels": [
+    "dependencies"
+  ],
   "packageRules": [
     {
-      "packagePatterns": ["^eslint"],
+      "packagePatterns": [
+        "^eslint"
+      ],
       "groupName": "eslint packages"
     },
     {
-      "packagePatterns": ["^@nrwl"],
+      "packagePatterns": [
+        "^@nrwl"
+      ],
       "groupName": "nrwl packages"
     },
     {
-      "packagePatterns": ["^@types"],
+      "packagePatterns": [
+        "^@types"
+      ],
       "groupName": "type definition packages"
     }
   ],
