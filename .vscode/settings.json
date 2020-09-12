@@ -24,9 +24,6 @@
     "*",
     "schematics",
     "workspace",
-    "client",
-    "client-e2e",
-    "server",
     "tools"
   ]
 }
