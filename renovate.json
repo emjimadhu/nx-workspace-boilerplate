@@ -26,5 +26,10 @@
       "groupName": "type definition packages"
     }
   ],
-  "separateMultipleMajor": true
+  "separateMultipleMajor": true,
+  "separateMajorMinor": true,
+  "separateMinorPatch": true,
+  "schedule": [
+    "before 3am on Sunday"
+  ]
 }
